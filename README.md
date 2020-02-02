@@ -1,6 +1,6 @@
 ### Next.js Consuming Contenta CMS backend.
 
-This is a application to get this two frameworks to work together and display recipes content types.
+This is an application to get this two frameworks to work together and display recipes content types.
 Forked from systemseed. Work in progress by Gustavo Perenciolo.
 
 [![CircleCI](https://circleci.com/gh/systemseed/drupal_reactjs_boilerplate.svg?style=svg)](https://circleci.com/gh/systemseed/drupal_reactjs_boilerplate)
