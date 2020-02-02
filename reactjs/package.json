@@ -1,0 +1,59 @@
+{
+  "name": "drupal_reactjs_boilerplate",
+  "version": "0.0.1",
+  "license": "GPL-2.0-or-later",
+  "dependencies": {
+    "@zeit/next-sass": "^1.0.1",
+    "compression": "^1.7.3",
+    "dotenv": "^8.1.0",
+    "express": "^4.16.3",
+    "express-basic-auth": "^1.1.5",
+    "immer": "^5.3.2",
+    "next": "^9.0.5",
+    "next-compose-plugins": "^2.2.0",
+    "next-redux-saga": "^4.0.2",
+    "next-redux-wrapper": "^3.0.0",
+    "next-routes": "^1.4.2",
+    "next-runtime-dotenv": "^1.0.1",
+    "node-sass": "^4.9.3",
+    "nprogress": "^0.2.0",
+    "platformsh": "^1.0.0",
+    "prop-types": "^15.6.2",
+    "raw-html-react": "^1.2.3",
+    "raw-loader": "^3.1.0",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "react-redux": "^7.1.1",
+    "redux": "^4.0.0",
+    "redux-devtools-extension": "^2.13.5",
+    "redux-saga": "^1.0.5",
+    "styled-components": "^5.0.0",
+    "superagent": "^5.1.0",
+    "superagent-defaults": "^0.1.14",
+    "superagent-jsonapify": "^1.4.5",
+    "superagent-prefix": "^0.0.2",
+    "webpack": "^4.41.5"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.3",
+    "babel-plugin-root-import": "^6.4.1",
+    "babel-plugin-styled-components": "^1.10.7",
+    "eslint": "6.2.2",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-react": "^7.11.1",
+    "eslint-plugin-react-hooks": "^2.3.0",
+    "react-is": "^16.12.0"
+  },
+  "standard": {
+    "parser": "babel-eslint"
+  },
+  "scripts": {
+    "add:dev": "yarn add -D",
+    "build": "next build",
+    "start": "PORT=3000 NODE_ENV=production node server.js",
+    "start:dev": "PORT=3000 NODE_ENV=development node server.js",
+    "eslint": "./node_modules/.bin/eslint ./"
+  }
+}
